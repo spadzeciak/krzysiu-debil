@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista płatności</title>
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Lista Płatności</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Imię</th>
+                <th>Czy zapłacił?</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bartek</td>
+                <td><input type="checkbox" name="bartek_paid" checked /></td>
+            </tr>
+            <tr>
+                <td>Krzysiu</td>
+                <td><input type="checkbox" name="krzysiu_paid" /></td>
+            </tr>
+            <tr>
+                <td>Bizon</td>
+                <td><input type="checkbox" name="bizon_paid" /></td>
+            </tr>
+            <tr>
+                <td>Miłosz</td>
+                <td><input type="checkbox" name="milosz_paid" /></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
